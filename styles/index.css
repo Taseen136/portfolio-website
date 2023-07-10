@@ -1,6 +1,7 @@
-* {
+body {
     margin: 0;
 }
+
 
 /* common shared styles */
 body {
@@ -190,4 +191,48 @@ main {
     font-style: normal;
     font-weight: 400;
 
+}
+
+/* resume section styles */
+.resume{
+    align-items: center;
+}
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-info {
+    padding: 20px;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-headline{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.passing-year{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+}
+.resume-description{
+    color:#757575;
+font-size: 16px;
+font-weight: 400;
+}
+#btn2{
+    /* margin: 30px 450px; */
+}
+hr{
+     background: #D1D1D1;;
+}
+.download-cv{
+    text-align: center;
 }
