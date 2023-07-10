@@ -14,6 +14,24 @@ body {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
+    padding: 18px 36px 19px 35px;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 700;
+    border: 0;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
 
 /* nav related styles */
@@ -51,14 +69,7 @@ nav a {
     color: #474747;
 }
 
-.btn-primary {
- 
-    padding: 18px 36px 19px 35px;
-    font-size: 20px;
-    color: #FFF;
-    font-weight: 700;
-    border: 0;
-}
+
 
 /* header related styles */
 .header {
@@ -70,19 +81,22 @@ nav a {
 
 .banner {
     padding: 30px 0px 0px 200px;
-   width: 100dvw;
+    width: 100dvw;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.banner-content{
-max-width: 700px;
+
+.banner-content {
+    max-width: 700px;
 }
-.banner-description{
+
+.banner-description {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
 .banner-greetings {
     font-size: 45px;
     color: #474747;
@@ -102,12 +116,40 @@ max-width: 700px;
 .profile-pic {
     width: 1000px;
     height: 676px;
-   
+
 }
-#btn1{
+
+#btn1 {
     margin-right: 20px;
 }
-/* main section styles */
 
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px 0;
+}
+.section-description{
+    margin: 30px 80px;
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575 ;
+}
+.info-description{
+    color: #474747;
+}
